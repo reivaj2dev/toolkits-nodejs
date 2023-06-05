@@ -1,0 +1,7 @@
+{
+    "url": "/crypto",
+    "index": "APIs/cryptoAPI/index",
+    "name": "crypto",
+    "desc": "",
+    "activo":true
+}

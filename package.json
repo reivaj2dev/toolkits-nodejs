@@ -1,0 +1,21 @@
+{
+    "name": "toolkits-nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon ./node_modules/server-module/server.js",
+        "start:prod": "node ./server/server.js",
+        "crypto": "node ./helpers/crypto/index.js",
+        "test": "echo \"Error: no test specified2\" && exit 1"
+    },
+    "author": "reivaj2dev",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    },
+    "dependencies": {
+        "server-module": "github:reivaj2dev/server-module",
+        "swagger-ui-express": "^4.6.3"
+    }
+}
